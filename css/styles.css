@@ -13,7 +13,7 @@ a {
   color: #FFC2FD;
   text-decoration: none;
 }
-.main{
+h1 {
   text-shadow: 2px 1px #D266F7;
   text-shadow: 0 1px 0 #B357D4,
                0 2px 0 #8F45A8,
@@ -32,15 +32,15 @@ a {
   font-style: italic;
 }
 .sidebar{
-  text-align: left;
-  border: 5px solid #119960;
+  text-align: center;
+  border: 4px solid #119960;
   margin: 4px;
-  padding: 15px;
+  padding-left: 7px;
   padding-bottom: 50px;
-  padding-right: 35px;
+  padding-right: 20px;
   width: 10%;
   float: right;
-  background-color: rgba(84, 204, 154, .25);
+  background-color: rgba(84, 204, 154, .40);
   vertical-align: top;
 }
 .home{
@@ -49,13 +49,28 @@ a {
 }
 img {
   float: left;
+  width: 400px;
+  height: 200px;
+  border: 4px solid #119960;
+  padding: 5px;
+  background-color: rgba(84, 204, 154, .40);
+  margin: 7px;
+}
+.elevator img {
+  float: left;
+  width: 1050px;
+  height: 500px;
+  border: 4px solid #119960;
+  padding: 5px;
+  background-color: rgba(84, 204, 154, .40);
+  margin: 7px;
 }
 h1 {
   font-size: 75px;
-  border: 5px solid #119960;
+  border: 4px solid #119960;
   margin: 4px;
   padding: 15px;
-  background-color: rgba(84, 204, 154, .25)
+  background-color: rgba(84, 204, 154, .40)
 }
 p{
   font-size: 25px;
@@ -63,4 +78,11 @@ p{
 .columns {
   width: 300px;
   float: left;
+}
+.sidebar li {
+  text-align: left;
+}
+.dracula img {
+  width: 250px;
+  height: 300px;
 }
